@@ -10,7 +10,7 @@ const LoginPage = ({ handleLogin }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (username === 'admin' && password === 'password') {
+    if (username === 'admin' && password === '1234') {
       localStorage.setItem('token', 'dummyToken');
       handleLogin();
       navigate('/dashboard');

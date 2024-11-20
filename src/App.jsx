@@ -20,11 +20,11 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Home Page */}
+      
         <Route path="/" element={<HomePage loggedIn={loggedIn} />} />
-        {/* Login Page */}
+      
         <Route path="/login" element={<LoginPage handleLogin={handleLogin} />} />
-        {/* Dashboard */}
+       
         <Route
           path="/dashboard"
           element={
